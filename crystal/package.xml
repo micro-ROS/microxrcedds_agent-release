@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>microxrcedds_agent</name>
+  <version>:{version}</version>
+  <description>DDS-XCRE agent implementation </description>
+  <maintainer email="borjaouterelo@eprosima.com">Borja Outerelo</maintainer>
+  <license>Apache License 2.0</license>
+
+  <build_depend>asio</build_depend>
+
+  <depend>fastcdr</depend>
+  <depend>fastrtps</depend>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
+
+
+
